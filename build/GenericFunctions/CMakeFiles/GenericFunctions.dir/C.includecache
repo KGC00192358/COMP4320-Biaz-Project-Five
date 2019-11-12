@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kevin/Documents/Classes/COMP4320/homework/coding_project_five/GenericFunctions/Generic_Functions.c
+Generic_Functions.h
+/home/kevin/Documents/Classes/COMP4320/homework/coding_project_five/GenericFunctions/Generic_Functions.h
+
+/home/kevin/Documents/Classes/COMP4320/homework/coding_project_five/GenericFunctions/Generic_Functions.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+arpa/inet.h
+-
+netinet/in.h
+-
+limits.h
+-
+unistd.h
+-
+stdio.h
+-
+sys/socket.h
+-
+
