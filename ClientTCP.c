@@ -24,7 +24,7 @@ int setUpAndConnect(int port, char const *address) {
 	//server_address_struct.sin_addr = inet_addr("127.0.0.1");
 	server_address_struct.sin_port = htons(port);
 
-	if (inet_pton(AF_INET, "127.0.0.1", &server_address_struct.sin_addr) <= 0) 
+	if (inet_pton(AF_INET, address, &server_address_struct.sin_addr) <= 0) 
 	{
 		fprintf(stderr, "inet_pton() failed\n");
 		return -1;

@@ -31,6 +31,7 @@ class ServerTCP
 
 	public ServerTCP(int port) throws Exception {
 		serverSock = new ServerSocket(port);
+		System.out.println("New Socket Created on IP: " + serverSock.getInetAddress());
 
 	}	
 	private void run() throws Exception {
