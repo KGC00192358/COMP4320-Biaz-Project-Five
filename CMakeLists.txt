@@ -29,9 +29,9 @@ add_subdirectory(EncodeDecode)
 add_subdirectory(GenericFunctions)
 
 
-add_executable(ServerTCP ServerTCP.c)
-target_link_libraries(ServerTCP EncodeDecode)
-target_link_libraries(ServerTCP GenericFunctions)
+#add_executable(ServerTCP ServerTCP.c)
+#target_link_libraries(ServerTCP EncodeDecode)
+#target_link_libraries(ServerTCP GenericFunctions)
 add_executable(ClientTCP ClientTCP.c)
 target_link_libraries(ClientTCP EncodeDecode)
 target_link_libraries(ClientTCP GenericFunctions)

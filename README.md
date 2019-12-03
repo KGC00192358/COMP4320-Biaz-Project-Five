@@ -2,10 +2,10 @@
 
 To compile and run the TCP calculation client and server, follow these instructions.
 
-1. After unzipping the project folder, cd into it and delete the build directory **if one exists**
+1. Unzip the folder and cd into it
 2. Run the *setup.sh* script (`./setup.sh`)
 3. cd into the newly created build directory (`cd build`)
-3. Run the server by typing `./ServerTCP [port]`
+3. Run the Java server by typing `Java ServerTCP [port]`
 4. Run the client by typing `./ClientTCP [server address] [port]`
 
 And then just use the calculation as outlined in the project description.

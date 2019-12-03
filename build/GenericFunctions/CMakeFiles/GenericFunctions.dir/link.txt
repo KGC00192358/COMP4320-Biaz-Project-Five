@@ -1,2 +1,0 @@
-/usr/bin/ar qc libGenericFunctions.a  CMakeFiles/GenericFunctions.dir/Generic_Functions.c.o
-/usr/bin/ranlib libGenericFunctions.a

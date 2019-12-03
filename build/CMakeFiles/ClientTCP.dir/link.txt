@@ -1,1 +1,0 @@
-/usr/bin/cc -Wall -Wall  -rdynamic CMakeFiles/ClientTCP.dir/ClientTCP.c.o  -o ClientTCP EncodeDecode/libEncodeDecode.a GenericFunctions/libGenericFunctions.a 
